@@ -1,0 +1,11 @@
+#friends-container {
+    width: 25vw;
+    border-right: 2px solid gray;
+    height: 100%;
+}
+#friends-container>h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 0.3em;
+}

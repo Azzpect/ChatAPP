@@ -1,0 +1,36 @@
+#message-area-container {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0.3rem 1rem 0.3rem;
+}
+#message-container {
+    width: 90%;
+    height: 80%;
+    overflow-y: scroll;
+}
+#message-box {
+    width: 80%;
+    height: 10%;
+    background-color: #373739;
+    position: relative;
+    border-radius: 0.5rem;
+}
+#message-box>input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.3rem;
+    background-color: transparent;
+    outline: none;
+    padding: 0.3em;
+}
+#message-box>#send-icon {
+    position: absolute;
+    width: 3%;
+    top: 30%;
+    right: 2%;
+    cursor: pointer;
+}
